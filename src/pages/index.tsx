@@ -73,7 +73,7 @@ const IndexPage = () => {
         className="mb-6"
       />
       
-      <div className="flex flex-wrap gap-10 justify-left">
+      <div className="flex flex-wrap gap-10 justify-center sm:justify-left">
         {filteredUsers.length > 0 ? (
           filteredUsers.map((user: User) => (
             <Card key={user.id} {...user} />
